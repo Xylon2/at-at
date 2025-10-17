@@ -75,7 +75,7 @@ Next, schedule the function of your dreams. Here we schedule the function to exe
 
 You may also specify a description for the scheduled task with the optional `:desc` key.
 
-Another way of achieving the same result is to use `after` which takes a delaty time in ms from now:
+Another way of achieving the same result is to use `after` which takes a delay time in ms from now:
 
 ```clj
 (at/after 1000 #(println "hello from the past!") my-pool)
